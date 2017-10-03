@@ -1,0 +1,61 @@
+//Global Styles_____
+body{
+    background: grey;
+    color: $blue;
+}
+.wrapper{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+//Search Bar________
+.topBar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: grey;
+    width: 100vw;
+    height: 75px;
+    display: flex;
+    flex-direction: flex-start;
+    justify-content: space-between;
+    align-items: center;
+}
+h1{
+    
+}
+.searchBar{
+    margin-right: 50px;
+}
+//Main_____
+.videoContainer{
+    margin-top: 75px;
+    width: 100%;
+    height: 600px;
+}
+.selectedVideo{
+    width: 100%;
+    height: 100%;
+}
+//Video List ______
+.listContainer{
+    border: 5px solid $blue;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 250px;
+    margin-top: 15px;
+}
+.list__thumbnail{
+    width: 300px;
+    border-radius: 15px;
+}
+.list__textContainer{
+    width: 50%;
+}
+.list__title{
+
+}
+.list__description{
+
+}
